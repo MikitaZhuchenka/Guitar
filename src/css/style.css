@@ -386,8 +386,14 @@ table {
   width: 134px;
 }
 .main-section__content-container {
+  position: relative;
   display: flex;
   font-display: row;
+}
+.main-section__first-elipse {
+  position: absolute;
+  top: 129px;
+  right: 34px;
 }
 
 .nav-menu__list {
@@ -446,6 +452,24 @@ table {
   z-index: 1;
 }
 
+.right-wrapper {
+  width: 372px;
+  position: absolute;
+  top: 150px;
+  right: 76px;
+}
+.right-wrapper__icons-box {
+  margin-bottom: 1px;
+  padding-left: 10px;
+}
+.right-wrapper__title {
+  margin-bottom: 5px;
+}
+.right-wrapper__text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
 .icons {
   display: flex;
   font-display: row;
@@ -465,4 +489,58 @@ table {
 }
 .icons__item i {
   font-size: 21px;
+}
+
+.title {
+  font-size: 72px;
+  position: relative;
+}
+.title__hr {
+  width: 65px;
+  position: absolute;
+  bottom: 0px;
+  margin: 0;
+  bottom: none;
+  border-top: 1px solid black;
+}
+
+.buttons {
+  display: inline-flex;
+}
+.buttons__main-btn {
+  margin-right: 32px;
+  width: 200px;
+  height: 60px;
+  border-radius: 100px;
+  background: #F28B64;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  font-size: 18px;
+  color: white;
+}
+.buttons__icons-btn {
+  display: inline-flex;
+  align-items: center;
+}
+.buttons__icons-btn img {
+  margin-right: 12px;
+}
+.buttons__text {
+  font-size: 16px;
+}
+
+.elipse {
+  width: 194px;
+  height: 194px;
+  background: linear-gradient(144deg, rgba(237, 123, 80, 0.5) 14.85%, rgba(72, 138, 234, 0.5) 53.25%, rgba(44, 44, 44, 0.5) 85.74%);
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.elipse__subtract {
+  width: 129.33px;
+  height: 129.33px;
+  background: #F0F0F0;
+  border-radius: 100px;
 }/*# sourceMappingURL=style.css.map */

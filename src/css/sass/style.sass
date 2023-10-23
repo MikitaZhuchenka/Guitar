@@ -173,16 +173,32 @@ $color-orange: #F28B64
 /* Вторая секция */
 .second-section
     min-height: 700px
+    position: relative
     &__container
         padding-top: 32px
     &__title
         margin-bottom: 40px
     &__cards-box
         display: inline-flex
+        margin-bottom: 25px
     &__cards-item
         margin-right: 30px
         &:last-child
             margin-right: 0
+    &__icons-box
+        display: flex
+        justify-content: space-evenly
+    &__icons-item
+        &:last-child
+            margin-right: 0
+    &__first-elipse
+        position: absolute
+        top: 80px
+        right: -60px
+    &__second-elipse
+        position: absolute
+        top: 364px
+        left: -60px
 
 .cards-item
     position: relative
@@ -209,4 +225,13 @@ $color-orange: #F28B64
 .cards-item_blue
     background: $color-blue
 
-
+.icons-item
+    display: inline-flex
+    align-items: center
+    &__img
+        margin-right: 20px
+        width: 80px
+    &__text
+        font-size: 18px
+        span
+            font-size: 48px

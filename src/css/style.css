@@ -569,6 +569,7 @@ table {
 }
 .second-section__container {
   padding-top: 32px;
+  position: relative;
 }
 .second-section__title {
   margin-bottom: 40px;
@@ -594,11 +595,13 @@ table {
   position: absolute;
   top: 80px;
   right: -60px;
+  z-index: -1;
 }
 .second-section__second-elipse {
   position: absolute;
   top: 364px;
   left: -60px;
+  z-index: -1;
 }
 
 .cards-item {
@@ -644,4 +647,9 @@ table {
 }
 .icons-item__text span {
   font-size: 48px;
+}
+
+/* Третия секция */
+.third-section {
+  min-height: 640px;
 }/*# sourceMappingURL=style.css.map */

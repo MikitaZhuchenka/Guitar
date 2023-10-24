@@ -176,6 +176,7 @@ $color-orange: #F28B64
     position: relative
     &__container
         padding-top: 32px
+        position: relative
     &__title
         margin-bottom: 40px
     &__cards-box
@@ -195,10 +196,12 @@ $color-orange: #F28B64
         position: absolute
         top: 80px
         right: -60px
+        z-index: -1
     &__second-elipse
         position: absolute
         top: 364px
         left: -60px
+        z-index: -1
 
 .cards-item
     position: relative
@@ -235,3 +238,7 @@ $color-orange: #F28B64
         font-size: 18px
         span
             font-size: 48px
+
+/* Третия секция */
+.third-section
+    min-height: 640px

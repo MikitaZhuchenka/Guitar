@@ -195,6 +195,7 @@ $color-orange: #F28B64
 
 /* Вторая секция */
 .second-section
+    overflow: hidden
     min-height: 700px
     position: relative
     &__container
@@ -204,6 +205,7 @@ $color-orange: #F28B64
         margin-bottom: 40px
     &__cards-box
         display: inline-flex
+        justify-content: center
         margin-bottom: 25px
     &__cards-item
         margin-right: 30px
@@ -315,3 +317,51 @@ $color-orange: #F28B64
         justify-content: flex-end
     &__title
         margin-bottom: 20px
+
+/* АДАПТИВНАЯ ВЕРСТКА */
+
+/* мал комп или горизонтальный планшет */
+@media (max-width: 1199px)
+    .container
+        width: 960px
+        /* 1 секция */
+    .main-section
+        min-height: 690px
+    .left-wrapper
+        img
+            width: 750px
+        &__rectangle-blue
+            width: 500px
+            height: 200px
+        &__rectangle-orange
+            width: 550px
+            height: 200px
+        &__rectangle-grey
+            width: 500px
+            height: 200px
+    .right-wrapper
+        right: 25px
+    .main-section__first-elipse
+        right: 10px
+    .main-section__second-elipse
+        top: 560px
+
+        /* 2 секция */
+    .second-section
+        min-height: 600px
+        &__cards-box
+            display: flex
+            justify-content: center
+    .cards-item
+        width: 300px
+        height: 300px
+        margin-right: 20px
+    .cards-item__img
+        height: 270px
+    .cards-item__text
+        top: 120px
+        font-size: 30px
+    .icons-item__img
+        margin-right: 10px
+
+        /* 3 секция */  

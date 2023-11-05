@@ -749,7 +749,7 @@ html {
     /* 1 секция */
   }
   .main-section {
-    min-height: 690px;
+    min-height: 600px;
   }
   .left-wrapper img {
     width: 750px;
@@ -797,6 +797,12 @@ html {
   }
   .icons-item__img {
     margin-right: 10px;
-    /* 3 секция */  
+    /* 3 секция */
+  }
+  .third-section__container {
+    padding-left: 40px;
+  }
+  .third-section__right-wrapper {
+    max-width: 450px;
   }
 }/*# sourceMappingURL=style.css.map */

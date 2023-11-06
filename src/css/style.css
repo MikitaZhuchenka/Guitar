@@ -912,6 +912,39 @@ html {
   .elipse_big {
     width: 250px;
     height: 250px;
+    /* 3 секция */
+  }
+  .third-section {
+    min-height: 510px;
+  }
+  .third-section__left-title {
+    display: none;
+  }
+  .third-section__right-wrapper {
+    max-width: 600px;
+  }
+  .third-section__container {
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  .third-section__right-title {
+    margin-right: 200px;
+  }
+  .title {
+    /* Подвал */
+  }
+  .title__hr_top {
+    bottom: 60px;
+  }
+  .footer__container {
+    min-height: 200px;
+  }
+  .footer__img {
+    width: 480px;
+  }
+  .footer__title {
+    margin-bottom: 10px;
   }
 }
 /* Горизонтальный телефон*/

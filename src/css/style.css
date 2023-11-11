@@ -975,10 +975,11 @@ html {
   }
   .hamburger {
     width: 30px;
-    position: absolute;
+    position: fixed;
     top: 40px;
     right: 30px;
     height: 17px;
+    z-index: 30;
   }
   .hamburger span {
     height: 3px;
